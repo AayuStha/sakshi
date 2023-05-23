@@ -1,0 +1,51 @@
+*{
+    background-color: blanchedalmond;
+}
+
+h1, h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 26px;
+}
+h3{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 800px){
+    video{
+        max-width: 700px;
+        height: 500px;
+        margin-left: 0;
+    }
+    h1{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 500px ){
+    
+    video{
+        max-width: 518px;
+        height: 390px;
+        margin-left: 0;
+    }
+    h1{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+   
+    video{
+        max-width: 418px;
+        height: 290px;
+        margin-left: -10px;
+      }
+      
+    h1{
+        text-align: center;
+    }
+}
